@@ -1,0 +1,85 @@
+### Good day
+# COMMAND LINE / Terminal 
+
+---
+
+## one of the most important tools to a developer
+
+uses:
+
+---
+
+# files & directories manipulation
+
+**mkdir <new directoy name>**
+**M**a**K**es a new **DIR**ectory with the name specified
+
+**cd <directory name>**
+**C**hanges **D**irectory to specified name
+
+**pwd**
+**P**rints **W**orking **D**irectory
+
+honorable mentions 
+rmdir , cp , poweroff  
+[Useful terminal commands](https://milq.github.io/useful-terminal-commands-ubuntu-debian/)
+
+---
+
+# Package Managment  
+`sudo apt-get install <insert name here>`
+
+package manger is a powerful software installation utility, named  apt-get,that collect lot of softwares that we can install it to the system from this package manger.
+
+
+updating reposotries
+`sudo apt-get update` 
+
+
+u had heard about a package x and want to look for it:
+`sudo apt-cache search x`
+
+found it , install it :
+`sudo apt-get install x`
+
+----
+
+something wrong happened , reinstall:
+`sudo apt-get install x --reinstall`
+
+want to remove the x software:
+`sudo apt-get remove x`
+
+[Useful link for reference](https://vitux.com/how-to-use-apt-get-package-manager-on-ubuntu-command-line/)
+
+
+will update all software in the system:
+`sudo apt-get upgrade`
+
+---
+
+example: 
+first we will update the packagemanger:
+`sudo apt-get update` 
+
+then we will install the mplayer:
+`sudo apt-get install mplayer`
+
+---
+
+ FUN IN TERMINAL
+[](https://media.giphy.com/media/YJ5OlVLZ2QNl6/giphy.gif)
+
+
+
+---
+
+you can customise your terminal to sute your taste
+on the terminal 
+
+Color and text:
+`Edit -> Prefrences -> unnamed`
+
+* Text curor
+* Background color
+* Background Transparency
